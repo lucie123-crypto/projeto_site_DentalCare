@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODONTOCARE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #181717;
+            font-family: Arial, sans-serif;
+        }
+        .top-bar {
+            background-color: #44baff;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        a {
+            color: #000000; /* Cor do texto dos links */
+            text-decoration: none; /* Remove o sublinhado dos links */
+        }
+        a:hover {
+            color: #f10101; /* Cor do texto dos links ao passar o mouse */
+            text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        Bem-vindo à nossa Clínica Odontológica
+    </div>
+    <div class="container text-center">
+        <img src="logo3.png" alt="Logo" class="img-fluid"> 
+        <h1 style="color: #44baff;">DentalCare</h1>
+        <div class="button-container mb-4">
+            <a href="pagina-inicial.html" target="_blank" class="btn mx-2" style="background-color: #44baff; color: white;">HOME</a> 
+            <a href="nossotime.html" target="_blank" class="btn mx-2" style="background-color: #44baff; color: white;">EQUIPE DENTALCARE</a>
+            <a href="contato.html" class="btn mx-2" style="background-color: #44baff; color: white;">CONTATO</a>
+        </div>
+        <h2 style="font-size: 24px;">Na Clínica Odontológica DentalCare, nossa missão é promover sorrisos saudáveis com um atendimento de excelência e humanizado.</h2>
+
+        <div id="carouselExampleControls" class="carousel slide my-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/paradontax/pt_BR/assets/caringforgums/dentist-treating-patient.jpg?auto=format" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>SUA SAÚDE BOCAL RENOVADA</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="dentista.png" class="d-block w-100" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>UMA NOVA IDEIA EM ODONTOLOGIA</h4> 
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="outraimagem.png" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>EQUIPE ESPECIALIZADA</h4>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h1 style="color: #0b8ee6;">Nossos Serviços</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/256/3467/3467830.png" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">TRANSPLANTE DENTARIO</h5>
+                        <p class="card-text">O transplante dentário é um procedimento que reposiciona dentes saudáveis de uma parte da boca para outra.</p>
+                        <a href="contato.html" class="btn mx-2" style="background-color: #44baff; color: white;">SAIBA MAIS</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/256/4521/4521362.png" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Limpeza Geral</h5>
+                        <p class="card-text">A limpeza geral remove placas e tártaro, prevenindo cáries e gengivite. Agende sua consulta e mantenha seu sorriso saudável.</p>
+                        <a href="contato.html" class="btn mx-2" style="background-color: #44baff; color: white;">SAIBA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://cdn-icons-png.flaticon.com/256/7164/7164440.png" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Equipamentos Especializados</h5>
+                        <p class="card-text">Tecnologia avançada que garante diagnósticos precisos e tratamentos eficazes. Essenciais para um atendimento de qualidade.</p>
+                        <a href="contato.html" class="btn mx-2" style="background-color: #44baff; color: white;">SAIBA MAIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 style="color: #0b8ee6;">NOSSA LOCALIZAÇÃO</h1>
+        <h2 style="font-size: 24px;">A Clínica Odontológica DentalCare está localizada no coração de Brasília, em uma área de fácil acesso.</h2>
+        <div id="secao-principal">
+            <img src="novopredio.png" alt="Novo Prédio" class="img-fluid">
+        </div>
+
+        <footer>
+            <p>&copy; DENTALCARE. Todos os direitos reservados.</p>
+            <p><a href="politica-privacidade.html">Política de Privacidade</a> | <a href="contato.html">Contato</a></p>
+        </footer>
+    </div>
+    <div class="top-bar">
+        Explore nossos serviços abrangentes e cuidados especializados para um sorriso saudável na Clínica DentalCare.
+    </div>
+</body>
+</html>
