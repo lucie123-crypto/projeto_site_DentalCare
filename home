@@ -9,12 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <style>
         body {
-            background-color: #ffffff;
+            background-image: url('https://i.pinimg.com/originals/1f/67/1e/1f671e645bdab8dd7b5d52c2f83d7561.png');
+            background-size: cover; /* Cover the entire screen */
+            background-repeat: no-repeat; /* Don't repeat the image */
+            background-position: center; /* Center the image */
             color: #181717;
             font-family: Arial, sans-serif;
         }
         .top-bar {
-            background-color: #44baff;
+            background-color: rgba(68, 186, 255, 0.8); /* Semi-transparent background */
             color: #ffffff;
             text-align: center;
             padding: 10px;
@@ -41,8 +44,8 @@
         <img src="logo3.png" alt="Logo" class="img-fluid"> 
         <h1 style="color: #44baff;">DentalCare</h1>
         <div class="button-container mb-4">
-            <a href="pagina-inicial.html" target="_blank" class="btn mx-2" style="background-color: #44baff; color: white;">HOME</a> 
-            <a href="nossotime.html" target="_blank" class="btn mx-2" style="background-color: #44baff; color: white;">EQUIPE DENTALCARE</a>
+            <a href="projeto.html"  class="btn mx-2" style="background-color: #44baff; color: white;">HOME</a> 
+            <a href="teste.html"  class="btn mx-2" style="background-color: #44baff; color: white;">EQUIPE DENTALCARE</a>
             <a href="contato.html" class="btn mx-2" style="background-color: #44baff; color: white;">CONTATO</a>
         </div>
         <h2 style="font-size: 24px;">Na Clínica Odontológica DentalCare, nossa missão é promover sorrisos saudáveis com um atendimento de excelência e humanizado.</h2>
@@ -87,7 +90,6 @@
                         <h5 class="card-title">TRANSPLANTE DENTARIO</h5>
                         <p class="card-text">O transplante dentário é um procedimento que reposiciona dentes saudáveis de uma parte da boca para outra.</p>
                         <a href="contato.html" class="btn mx-2" style="background-color: #44baff; color: white;">SAIBA MAIS</a>
-
                     </div>
                 </div>
             </div>
